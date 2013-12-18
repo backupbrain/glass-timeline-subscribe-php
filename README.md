@@ -1,10 +1,15 @@
-Add Your Service as a Contact
+Subscribe to User Timeline Updates
 =============================
-This code shows how to add your service to a Google Glass user's contacts, so that
-they can share timeline items with your service
+This code shows how to use callback urls to track user's Google Glass interactions
+with the portion of their timeline that is shared with your service.
 
 It is intended as a complement to my tutorial:
 http://20missionglass.tumblr.com/post/67676363275/add-your-service-as-a-contact
+
+
+You will need to first insert your service as a contact, which you can read about at:
+http://20missionglass.tumblr.com/post/67676363275/add-your-service-as-a-contact
+
 
 Configuration
 --------------
@@ -19,14 +24,14 @@ Edit your settings.php to reflect your oauth2 client app's settings.
 $settings['oauth2']['oauth2_client_id'] = 'YOURCLIENTID.apps.googleusercontent.com';
 $settings['oauth2']['oauth2_secret'] = 'YOURCLIENTSECRET';
 $settings['oauth2']['oauth2_redirect'] = 'https://example.com/oauth2callback';
-$settings['oauth2']['api_key'] = 'API_KEY';
 
 
-Be sure to name your service and create a 320x240 pixel contact icon.
+There is also a database component so we can store the incoming timeline notifications
 
-$settings['service']['contact_id'] = 'example.com_service';
-$settings['service']['contact_displayName'] = 'Example Service Name';
-$settings['service']['contact_icon'] = 'https://example.com/glass_contact_icon.png';
+$settings['mysql']['server'] = 'localhost';
+$settings['mysql']['username'] = 'mysqluser';
+$settings['mysql']['password'] = 'mysqlpassword';
+$settings['mysql']['schema'] = 'schema';
 
 
 Now you should be good to go.

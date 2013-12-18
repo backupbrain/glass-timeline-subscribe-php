@@ -10,7 +10,7 @@ $settings['oauth2']['oauth2_redirect'] = 'https://example.com/oauth2callback';
 $settings['mysql']['server'] = 'localhost';
 $settings['mysql']['username'] = 'mysqluser';
 $settings['mysql']['password'] = 'mysqlpassword';
-$settings['mysql']['schema'] = 'glass_subscription';
+$settings['mysql']['schema'] = 'schema';
 
 
 ?>
