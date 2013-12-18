@@ -38,9 +38,9 @@ if(isset($_GET['code'])) {
 		$Google_Subscription->verifyToken = md5('https://example.com/timeline_callback.php');
 		
 		// don't have an SSL web server?  You can use the Mirror Subscription proxy for development:
-//		$Google_Subscription->callbackUrl = 'https://mirrornotifications.appspot.com/forward?url=https://example.com/timeline_callback.php';
+		//$Google_Subscription->callbackUrl = 'https://mirrornotifications.appspot.com/forward?url='.$settings['app']['subscription_callback'];
 		
-		$Google_Subscription->callbackUrl = 'https://example.com/timeline_callback.php';
+		$Google_Subscription->callbackUrl = $settings['app']['subscription_callback'];
 			
 		
 		try {
