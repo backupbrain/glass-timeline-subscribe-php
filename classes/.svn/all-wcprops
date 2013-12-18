@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1715/www/glassware/bitcointicker/classes
+END
+HttpPost.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1752/www/glassware/bitcointicker/classes/HttpPost.class.php
+END
+Google_SubscriptionList.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1745/www/glassware/bitcointicker/classes/Google_SubscriptionList.class.php
+END
+Google_OAuth2_Token.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1745/www/glassware/bitcointicker/classes/Google_OAuth2_Token.class.php
+END
+Google_Subscription.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1751/www/glassware/bitcointicker/classes/Google_Subscription.class.php
+END
